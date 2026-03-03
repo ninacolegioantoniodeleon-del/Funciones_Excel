@@ -1,0 +1,126 @@
+body {
+    background-color: #9ACF7C;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFFFFF;
+    color: #0D0D0D;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+     font-family: Brush Script MT;
+    color: #0D0D0D;
+    border-bottom: 2px solid #0D0D0D;
+    padding-bottom: 5px;
+}
+
+p {
+     font-family: Elephant;
+    line-height: 2;
+    text-align: justify;
+    color: #0D0D0D;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 700px;
+    border-radius: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFFFFFs;
+    color: white;
+}
+.img-cuadro {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  float: left;
+  margin-right: 10px;
+}
+
+
+footer {
+    background-color: #7DBF58;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h1 {
+     font-family: Brush Script MT;
+}
+
+
+h3{
+     font-family: Brush Script MT;
+}
+
+
+nav {
+    margin-top: 10px;
+
+}
+
+nav ul {
+    list-style: ;       /* Quita viñetas */
+    padding: 0;
+    margin: 0;
+    display: flex;          /* Menú horizontal */
+    justify-content: center;
+    gap: 200px;              /* Espacio entre menu de opciones */
+}
+
+nav ul li a {
+    text-decoration: none;  /* Quita subrayado */
+    color: Black;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #a61f55; /* Efecto al pasar el mouse */
+}
+/* Define el color de cada seccion */
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+hr {
+    background-color: #0D0D0D;
+    color: black;
+}
